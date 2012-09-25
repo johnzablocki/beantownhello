@@ -1,6 +1,6 @@
 var http = require("http");
 
-var message = { "message" : "Hello, Beantown alt.net World!" };
+var message = { "message" : "Hello, Beantown alt.net Git Demo World!" };
 
 http.createServer(function(req, res) {
     res.writeHeader(200, { "Content-Type" : "application/json" });
